@@ -7,21 +7,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header container">
-      <a href="#" class="header__logo">GREENMIND</a>
-
+    <header>
       <nav class="header__nav">
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">Contacts</a>
+        <div class="nav__wrapper">
+          <h1 href="#" class="header__logo">GREENMIND</h1>
+          <ul class="nav__ul">
+            <li class="nav__list">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav__list">
+              <a href="#">Products</a>
+            </li>
+            <li class="nav__list">
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+          <div class="header__icons">
+            <img src="./images/cart.svg" alt="Cart" />
+            <img src="./images/people.svg" alt="User" />
+            <span></span>
+            <img src="./images/t.svg" alt="Menu" />
+          </div>
+        </div>
       </nav>
-
-      <div class="header__icons">
-        <img src="./images/cart.svg" alt="Cart" />
-        <img src="./images/people.svg" alt="User" />
-        <span></span>
-        <img src="./images/t.svg" alt="Menu" />
-      </div>
     </header>
 
     <main>
@@ -96,47 +104,181 @@
       </section>
       <section class="about">
         <div class="container">
-          <div class="about__header">
-            <h2>About us</h2>
-            <p>Order now and appreciate the beauty of nature</p>
+          <div class="about__wrapper">
+            <div class="about__header">
+              <h2>About us</h2>
+              <p>Order now and appreciate the beauty of nature</p>
+            </div>
+
+            <div class="about__cards">
+              <div class="about__card">
+                <div class="about__icon">
+                  <img src="./images/grow.svg" alt="" />
+                </div>
+                <h3>Large Assortment</h3>
+                <p>
+                  we offer many different types of products<br />with fewer
+                  variations in each category.
+                </p>
+              </div>
+
+              <div class="about__card">
+                <div class="about__icon">
+                  <img src="./images/box.svg" alt="" />
+                </div>
+                <h3>Fast & Free Shipping</h3>
+                <p>
+                  4-day or less delivery time, free shipping<br />and an
+                  expedited delivery option.
+                </p>
+              </div>
+
+              <div class="about__card">
+                <div class="about__icon">
+                  <img src="./images/call.svg" alt="" />
+                </div>
+                <h3>24/7 Support</h3>
+                <p>
+                  answers to any business related inquiry<br />24/7 and in
+                  real-time.
+                </p>
+              </div>
+            </div>
           </div>
-
-          <div class="about__cards">
-            <div class="about__card">
-              <div class="about__icon">
-                <img src="./images/grow.svg" alt="" />
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <div class="categories__wrapper">
+            <h1 class="categories__title">Categories</h1>
+            <p class="categories__text">Find what you are looking for</p>
+            <div class="categories__data">
+              <div>
+                <img src="./images/categoties1.png" alt="" />
+                <h1>Natural Plants</h1>
               </div>
-              <h3>Large Assortment</h3>
-              <p>
-                we offer many different types of products<br />with fewer
-                variations in each category.
-              </p>
+              <div class="boxx">
+                <img src="./images/categories2.png" alt="" />
+                <h1>Plant Accessories</h1>
+                <p>
+                  Horem ipsum dolor sit amet,<br />
+                  consectetur adipiscing elit.
+                </p>
+                <button>
+                  Explore <img src="./images/ArrowRight.svg" alt="" />
+                </button>
+              </div>
+              <div>
+                <img src="./images/Frame 38.png" alt="" />
+                <h1>Artificial Plants</h1>
+              </div>
             </div>
-
-            <div class="about__card">
-              <div class="about__icon">
-                <img src="./images/box.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="what">
+        <div class="container">
+          <div class="what__wrapper">
+            <h1 class="what__title">
+              What customers say about <br />
+              GREEMIND?
+            </h1>
+            <div class="what__data">
+              <div class="what__box1">
+                <div>
+                  <p class="what__data-text">
+                    Jorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero <br />
+                    et velit interdum, ac aliquet odio mattis. Class aptent
+                    taciti sociosqu ad litora <br />
+                    torquent per conubia nostra, per inceptos himenaeos.
+                  </p>
+                </div>
+                <div class="brr">
+                  <div class="class">
+                    <img src="./images/Group 9.png" alt="" />
+                    <div>
+                      <h1>John Doe</h1>
+                      <p>Youtuber</p>
+                    </div>
+                  </div>
+                  <div><h1>🔎4.5</h1></div>
+                </div>
               </div>
-              <h3>Fast & Free Shipping</h3>
-              <p>
-                4-day or less delivery time, free shipping<br />and an expedited
-                delivery option.
-              </p>
-            </div>
-
-            <div class="about__card">
-              <div class="about__icon">
-                <img src="./images/call.svg" alt="" />
+              <div class="what__box2">
+                <div>
+                  <p class="what__data-text">
+                    Jorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero <br />
+                    et velit interdum, ac aliquet odio mattis. Class aptent
+                    taciti sociosqu ad litora <br />
+                    torquent per conubia nostra, per inceptos himenaeos.
+                  </p>
+                </div>
+                <div class="class">
+                  <img src="./images/Group 10.png" alt="" />
+                  <div>
+                    <h1>John Doe</h1>
+                    <p>Youtuber</p>
+                  </div>
+                </div>
               </div>
-              <h3>24/7 Support</h3>
-              <p>
-                answers to any business related inquiry<br />24/7 and in
-                real-time.
-              </p>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__data">
+            <h1 class="footer__title">GREENMIND</h1>
+            <p class="footer__text">
+              We help you find <br />
+              your dream plant
+            </p>
+            <img src="./images/footer.svg" alt="" />
+          </div>
+          <div class="box">
+            <li class="footer__list">
+              <a href="#" class="footer__a">Information</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Company</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Contact</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">About</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Community</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Getting Started</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Product</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Career</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Pricing</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Blog</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Our story</a>
+            </li>
+            <li class="footer__list">
+              <a href="#" class="footer__a">Information</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
